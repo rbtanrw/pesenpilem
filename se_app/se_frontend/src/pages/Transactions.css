@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+*{
+    font-family: "Poppins",
+    sans-serif;
+}
+.transwrapper{
+    padding: 2vw;
+    height: 100vh;
+    background-color: rgb(40, 40, 40);
+}
+.transaction{
+    margin-top: 10px;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    border-radius: 10px;
+}
+.id{
+    display: flex;
+}

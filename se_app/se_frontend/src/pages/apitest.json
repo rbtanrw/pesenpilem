@@ -1,0 +1,82 @@
+[
+    {
+        "TheaterID": 1,
+        "Capacity":30,
+        "Seats":[
+            [1,1,1,0,0,0,0,0,0,0],
+            [0,0,0,1,1,1,1,1,0,0],
+            [0,1,1,1,0,1,1,0,1,1]
+        ],
+        "Movie":{
+            "MovieID": 2,
+            "MovieName":"Walls in 3D",
+            "GenreName":"Romance",
+            "MovieDuration":"5 secs",
+            "MovieTime":"Besok"
+        }
+    },
+    {
+        "TheaterID": 2,
+        "Capacity":25,
+        "Seats":[
+            [0,0,0,0,0,0,0,0,0,0],
+            [0,0,0,0,0,0,0,0,0,0],
+            [0,0,0,0,0]
+        ],
+        "Movie":{
+            "MovieID": 2,
+            "MovieName":"Hidup Setengah 3",
+            "GenreName":"Action",
+            "MovieDuration":"5 secs",
+            "MovieTime":"Besok"
+        }
+    },
+    {
+        "TheaterID": 3,
+        "Capacity":30,
+        "Seats":[
+            [0,0,0,0,0,0,0,0,0,0],
+            [0,0,0,0,0,0,0,0,0,0],
+            [0,0,0,0,0,0,0,0,0,0]
+        ],
+        "Movie":{
+            "MovieID": 2,
+            "MovieName":"Bakwan",
+            "GenreName":"Action",
+            "MovieDuration":"5 secs",
+            "MovieTime":"Besok"
+        }
+    },
+    {
+        "TheaterID": 4,
+        "Capacity":25,
+        "Seats":[
+            [0,0,0,0,0,0,0,0,0,0],
+            [0,0,0,0,0,0,0,0,0,0],
+            [0,0,0,0,0]
+        ],
+        "Movie":{
+            "MovieID": 2,
+            "MovieName":"Ajdwnda",
+            "GenreName":"Horror",
+            "MovieDuration":"5 secs",
+            "MovieTime":"Besok"
+        }
+    },
+    {
+        "TheaterID": 5,
+        "Capacity":30,
+        "Seats":[
+            [0,0,0,0,0,0,0,0,0,0],
+            [0,0,0,0,0,0,0,0,0,0],
+            [0,0,0,0,0,0,0,0,0,0]
+        ],
+        "Movie":{
+            "MovieID": 2,
+            "MovieName":"KNdasdk",
+            "GenreName":"Romance",
+            "MovieDuration":"5 secs",
+            "MovieTime":"Besok"
+        }
+    }
+]

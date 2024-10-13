@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.movieposter{
+    padding: 2vh;
+    color: white;
+    width: 30vh;
+    height: 100vh;
+    background-color: rgb(40, 40, 40);
+
+}
+.movieposter img{
+    border-radius: 15px;
+    object-fit: cover;
+    width: 100%;
+    height: 50vh;
+}
+@media (max-width: 800px) {
+    .movieposter{
+        display: none;
+    }
+}

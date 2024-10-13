@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.moviebanner{
+    height: 30vh;
+    position: relative;
+    overflow: hidden;
+}
+.moviebanner img{
+    width: 100%;
+    object-fit: contain;
+}
+.moviebanner h1{
+    color: white;
+    position: absolute;
+    font-size: 48px;
+    bottom: 2vh;
+    left: 2vh;
+}
+.shadowoverlay{
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(1800deg,rgba(36, 36, 36, 0.7), rgba(0, 0, 0, 0));
+
+}

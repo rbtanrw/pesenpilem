@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.upcoming{
+    margin: 2vw;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.upcoming img{
+    transition: 300ms;
+    height: inherit;
+    width: 100%;
+    object-fit: cover;
+    filter:brightness(70%)
+}
+.upcoming img:hover{
+    width: 101%;
+    filter:brightness(100%)
+}
+.upcomingmovie{
+    z-index: 100;
+    border-radius: 20px;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    width: max-content;
+    color: orange;
+    border: solid 1px orange;
+    background-color: rgb(40, 40, 40);
+    padding: 8px 15px;
+}
+.buttonwrapper{
+    position: absolute;
+    display: flex;
+    gap: 15px;
+    bottom:20px;
+    left: 20px;
+    
+}
+.upcoming button{
+    cursor: pointer;
+    transition: 250ms;
+    border-radius: 20px;
+    width: max-content;
+    color: orange;
+    border: solid 1px orange;
+    background-color: rgb(40, 40, 40);
+    padding: 8px 15px;
+}
+.upcoming button:hover{
+    background-color: orange;
+    color: rgb(40, 40, 40);
+}

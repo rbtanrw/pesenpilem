@@ -1,0 +1,39 @@
+.navbarwrapper{
+    padding: 0.5vw 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    color: white;
+    background-color: rgb(0, 110, 110);
+    top: 0;
+
+}
+.navbar{
+
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+}
+.navbar img{
+    height: 34px;
+}
+.dropdown{
+    height: max-content;
+    transition: 200ms;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 999;
+    right: 0;
+
+}
+.dropdown button{
+    cursor: pointer;
+    padding: 20px;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    border: none;
+    
+}
